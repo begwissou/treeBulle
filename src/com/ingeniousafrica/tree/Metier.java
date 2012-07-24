@@ -10,12 +10,12 @@ public class Metier {
 		boolean permut;
  
 		do {
-			// hypothèse : le tableau est trié
+			// hypothï¿½se : le tableau est triï¿½
 			permut = false;
 			for (int i = 0; i < longueur - 1; i++) {
-				// Teste si 2 éléments successifs sont dans le bon ordre ou non
+				// Teste si 2 ï¿½lï¿½ments successifs sont dans le bon ordre ou non
 				if (tableau[i] < tableau[i + 1]) {
-					// s'ils ne le sont pas, on échange leurs positions
+					// s'ils ne le sont pas, on ï¿½change leurs positions
 					tampon = tableau[i];
 					tableau[i] = tableau[i + 1];
 					tableau[i + 1] = tampon;
@@ -26,7 +26,7 @@ public class Metier {
 	}
 	
 	public String treebulle(String entrer, String ordr){
-		String[] tableauEnter = entrer.split(",");
+		String[] tableauEnter = entrer.split(", ");
 		
 		//Arrays.sort(tableauEnter);
 		
