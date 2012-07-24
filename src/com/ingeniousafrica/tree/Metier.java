@@ -26,7 +26,7 @@ public class Metier {
 	}
 	
 	public String treebulle(String entrer, String ordr){
-		String[] tableauEnter = entrer.split(", ");
+		String[] tableauEnter = entrer.split(",");
 		
 		//Arrays.sort(tableauEnter);
 		
